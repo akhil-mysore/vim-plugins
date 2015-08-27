@@ -36,7 +36,7 @@ nnoremap \dd :cscope find d <cword><cr>
 " Tip# 1668
 
 " set nocsopeverbose " suppress 'duplicate connection' error
-set cs add /src/gated/cscope.out /src/gated/
+:cscope add /src/gated/cscope.out /src/gated/
 
 " function! LoadCscope()
 "  let db = findfile("cscope.out", ".;")
