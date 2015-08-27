@@ -4,7 +4,7 @@
 "
 
 " use both cscope and ctag for 'ctrl-]', ':ta', and 'vim -t'
-set cscopetag
+" set cscopetag
 
 " check cscope for definition of a symbol before checking ctags: set to 1
 " if you want the reverse search order.
@@ -25,7 +25,7 @@ nnoremap \gg :cscope find g <cword><cr>
 nnoremap \ss :cscope find s <cword><cr>
 
 " find text string
-"nnoremap \tt :cscope find t <cword><cr>
+nnoremap \tt :cscope find t <cword><cr>
 
 " functions calling this function
 nnoremap \cc :cscope find c <cword><cr>
